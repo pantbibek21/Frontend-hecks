@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(204, 225, 244);
+    width: 100vw;
+    height: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+.faq-section {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.faq-item {
+    border-bottom: 2px solid rgb(24, 67, 193);
+    margin-bottom: 12px;
+}
+
+.heading {
+    color: rgb(26, 54, 53);
+    text-align: center;
+    margin: 20px;
+
+}
+
+.faq-section .faq-item .question {
+    color: rgb(24, 67, 193);
+    font-weight: 600;
+    margin-bottom: 14px;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 12px;
+    position: relative;
+}
+
+.faq-section .faq-item .fa-solid {
+    display: inline-block;
+    position: absolute;
+    top: 22%;
+    right: 10px;
+    transition: transform 0.2s ease;
+}
+.faq-section .faq-item .angleIcon {
+    transform: rotate(180deg);
+    
+}
+
+.faq-section .faq-item .answer {
+    margin: auto 16px;
+    display: none;
+    animation: fade 0.5s linear;
+}
+
+@keyframes fade {
+    from {
+        transform: translateY(-5px);
+        opacity: .6;
+    }
+
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.faq-section .faq-item .answer p {
+    margin-bottom: 10px;
+    line-height: 26px;
+
+}
+
+.faq-section .faq-item .active {
+    display: block;
+}
+
+@media screen and (max-width: 968px) {
+    .faq-section {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .faq-section {
+        width: 90%;
+    }
+}
