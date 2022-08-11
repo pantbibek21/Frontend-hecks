@@ -11,4 +11,15 @@
 
 *Live Preview : click [here.](https://image-slider.bitbucket.io/)*
 
+## 3. FAQ
+**Folder Name : faq**
+
+There are two faq; one without javascript and one with javascript.
+
+
+*Without JavaScript Live Preview : click [here.](https://faq-without-js.bitbucket.io/)*
+
+*With JavaScript Live Preview : click [here.](https://faqwithjs.bitbucket.io/)*
+
+
 
