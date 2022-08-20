@@ -31,3 +31,8 @@ There are two faq; one without javascript and one with javascript.
 
 *Live Preview : click [here.](https://hamburgermenu-html-css.bitbucket.io/)*
 
+## 6. Pop up Window Model
+**Folder Name : popUpWindow**
+
+*Live Preview : click [here.](https://pop-up-box.bitbucket.io/)*
+
