@@ -36,3 +36,8 @@ There are two faq; one without javascript and one with javascript.
 
 *Live Preview : click [here.](https://pop-up-box.bitbucket.io/)*
 
+
+## 7. Awesome advance Navigation Bar
+**Folder Name : AdvanceNavbar**
+
+*Live Preview : click [here.](https://advance-navbar.bitbucket.io/)*
