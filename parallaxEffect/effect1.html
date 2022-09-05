@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParallaxEffect</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+     
+           
+            flex-direction: column;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .box {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box1 {
+            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(Images/happy-team1.jpg);
+            background-size: cover;
+            color: wheat;
+        }
+
+        .box3 {
+            /* background-image: url(Images/happy-team.jpg); */
+            color: rgba(255, 255, 255, 0.739);
+            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(Images/happy-team.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .box h2 {
+            width: 160px;
+            text-align: center;
+            font-weight: 900;
+            padding: 12px 20px;
+            background-color: rgba(0, 0, 0, 0.274);
+            border-radius: 12px;
+        }
+
+        .box2, .box4 {
+            height: 60vh;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box box1"><h2>Box 1</h2></div>
+    <div class="box box2"><h2>Box 2</h2></div>
+    <div class="box box3"><h2>Box 3</h2></div>
+    <div class="box box4"><h2>Box 4</h2></div>
+
+    <script>
+        const parallaxEffectDiv = document.querySelector(".box1");
+        window.addEventListener("scroll",()=>{
+            let offset = window.pageYOffset;
+            parallaxEffectDiv.style.backgroundPositionY = offset * 0.7 + "px";
+        })
+    </script>
+</body>
+</html>
