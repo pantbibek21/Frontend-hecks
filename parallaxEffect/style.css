@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+   
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(Images/happy-team1.jpg);
+    background-size: cover;
+    color: wheat;
+}
+
+.box3 {
+    /* background-image: url(Images/happy-team.jpg); */
+    color: rgba(255, 255, 255, 0.739);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(Images/happy-team.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box h2 {
+    width: 160px;
+    text-align: center;
+    font-weight: 900;
+    padding: 12px 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 12px;
+}
+
+.box2, .box4 {
+    height: 60vh;
+}
+
