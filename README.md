@@ -41,3 +41,8 @@ There are two faq; one without javascript and one with javascript.
 **Folder Name : AdvanceNavbar**
 
 *Live Preview : click [here.](https://advance-navbar.bitbucket.io/)*
+
+## 8. Parallax Effect 
+**Folder Name : parallaxEffect**
+
+*Live Preview : click [here.](https://parallaxeffect.bitbucket.io/)*
